@@ -2,7 +2,7 @@
 
 Este repositorio contiene la implementación e implementación de un modelo de traducción automática de español a inglés basado en la arquitectura Transformer original de Vaswani et al.. El proyecto fue desarrollado utilizando PyTorch nativo para construir los mecanismos de procesamiento de lenguaje natural, control de máscaras y optimización de tensores sin depender de abstracciones de alto nivel de modelos preentrenados.
 
-## Características del Proyecto
+## Características del proyecto
 
 - Construcción de arquitectura desde cero, implementación de una clase contenedora `TranslatorTransformer` que integra capas de embedding, codificación posicional y la clase base `nn.Transformer` de PyTorch con configuración orientada a lotes primero (`batch_first=True`).
 - Codificación posicional personalizada Desarrollo de un módulo `PositionalEncoding` que utiliza funciones sinusoidales y cosenoidales para inyectar la información de orden secuencial en los embeddings de los tokens.
